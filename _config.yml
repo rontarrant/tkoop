@@ -29,7 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Note: minimum Python version: 3.9, minimum Tkinter version: 8.5
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @TkooperRon
+twitter_username: TkooperRon
 
 # Build settings
 theme: minima
