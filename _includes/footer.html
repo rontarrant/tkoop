@@ -1,0 +1,45 @@
+<footer class="site-footer h-card">
+	<data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+	<div class="wrapper">
+
+	<h2 class="footer-heading"><B>{{ site.title | escape }}</B></h2>
+	<BR>
+	<div class="footer-col-wrapper">
+		<div class="footer-col footer-col-1">
+			<p>
+				Working examples of Tkinter widgets in Object-oriented Python.
+			</p>
+			<ul class="contact-list">
+				<li>minimum Python version: 3.9</li>
+				<li> minimum Tkinter version: 8.5</li>
+			</ul>
+		</div>
+
+		<div class="footer-col footer-col-2">
+			<ul class="contact-list">
+				<b>Contact Us</b>
+				{%- if site.email -%}
+				<li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+				{%- endif -%}
+				<li>{%- include social.html -%}</li>
+			</ul>
+		</div>
+
+		<div class="footer-col footer-col-3">
+			<ul class="contact-list">
+				<li class="p-name">
+					{%- if site.author -%}
+					  <p>&copy; Copyright {{ site.time | date: '%Y' }} {{ site.author }} </p>
+					{%- else -%}
+					  {{ site.title | escape }}
+					{%- endif -%}
+					<img src="/images/mascot/oop_mascot_blue_100.png" alt="Tkooper Mascot" style="width: 100px; height: 87px;">
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	</div>
+
+</footer>

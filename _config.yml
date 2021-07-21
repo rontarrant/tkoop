@@ -18,18 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Tkooper: Tkinter Object-oriented Python Demos"
+title: "Tkooper: Tkinter Object-oriented Python"
+author: Ronald V. Tarrant
 email: tkoopercoder@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Tkooper is short for Tkinter & Object-oriented Python. This blog discusses
-  Python Tkinter widgets complete with examples presented in the object-oriented
-  paradigm. The goal is comprehensive coverage, examining and demonstrating
-  the entire toolkit.
+  Here we talk about Tkinter & Object-oriented Python and demoonstrate the
+  widgets. Example code is presented as runable examples written in the object-oriented
+  paradigm. Our goal is comprehensive coverage of everything the toolkit
+  has to offer.
   
-  Note: minimum Python version: 3.9, minimum Tkinter version: 8.5
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TkooperRon
+facebook_username: tkooperron
 
 # Build settings
 theme: minima
