@@ -13,7 +13,7 @@ layout: default
 		{% endif %}
 		<p class="post-meta">
 		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-			{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+			{%- assign date_format = site.minima.date_format | default: "%A, %B %-d, %Y" -%}
 			{{ page.date | date: date_format }}
 		</time>
 			{%- if page.author -%}
@@ -76,7 +76,7 @@ layout: default
 				<li>
 					{% assign current-topic-color = post.topic %}
 					
-					{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+					{%- assign date_format = site.minima.date_format | default: "%A, %B %-d, %Y" -%}
 					<div class="post-topic">
 						<div class="post-info">
 							<div class="post-topic-date">

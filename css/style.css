@@ -62,6 +62,7 @@ a:link
 {
 	font-style: normal;
 	z-index: 2;
+	color: blue;
 }
 a:visited
 {

@@ -81,9 +81,30 @@ pre
 	grid-template-columns: 200px 200px;
 	grid-template-areas:
 		'gridheader gridheader'
-		'gridscreenshot gridsource'
+		'gridscreenshot gridterminal'
 		'gridfooter gridfooter';
 }
+
+ /* I'm not sure if these are used or not. */
+.right
+{
+	float: right;
+	margin-left: 15px;
+	max-width: 200px;
+}
+
+.left
+{
+	float: left;
+	margin-left: 20px;
+	max-width: 200px;
+}
+.center
+{
+	float: center;
+	margin-right: 20px;
+}
+
 /* This selector formats paragraph text in the gridheader area. */
 .screenshot_grid_header_blurb
 {
@@ -107,24 +128,6 @@ pre
 	padding-bottom: 40px;
 	padding-left: 20px;
 	padding-right: 20px;
-}
- /* I'm not sure if these are used or not. */
-.right
-{
-	float: right;
-	margin-left: 15px;
-}
-
-.left
-{
-	float: left;
-	margin-left: 20px;
-	max-width: 300px;
-}
-.center
-{
-	float: center;
-	margin-right: 20px;
 }
  /* First full-on selector in this file. Formats the <figcaption> HTML tag. */
 figcaption
