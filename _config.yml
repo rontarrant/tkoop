@@ -38,7 +38,7 @@ plugins:
   - jekyll-feed
 
 date_format: "%A, %B %-d, %Y"
-future: false
+future: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
