@@ -6,7 +6,16 @@ topic: general
 description: "The who, what, where, when, and how of this blog and a bunch of other things that might be good to know."
 ---
 
-# 001: Introduction
+# 001: ## Intro — What We're Doing
+
+Here's what we'll cover:
+
+- who's writing this blog,
+- why Python/Tkinter is the blog's subject,
+- why I'm talking about cross-platform applications,
+- why I picked the Object-oriented Programming paradigm, and
+- why I made some of the other decisions about how to approach this blog.
+
 ## Why Me?
 
 <!-- LEFT -->
@@ -61,7 +70,7 @@ I’m sure every non-OOP adherent has a great way to organize code, but with Pyt
 
 ## Why These Demos?
 
-The plan is to cover the entire *tkinter* toolkit with each demo stripped down to just what's needed to make things work. No extra stuff to muddy the water and each new idea presented by itself to maintain clarity. And as mentioned, this will all be in the OOP paradigm. There are two reasons for this:
+The plan is to cover the entire *tkinter* toolkit in as much detail as I can muster. Each demo will be stripped down to just what's needed so the feature under discussion will work. No extra stuff to muddy the waters and each new idea will be presented by itself to maintain clarity. And as mentioned, this will all be in the OOP paradigm. There are two reasons for this:
 
 - consistency of presentation, which will facilitate...
 - ease of adaptation for your own purposes.
@@ -84,11 +93,21 @@ They’re pretty self-explanatory, I suppose, but I’ll throw in these tidbits.
 - *Home*... well, nothing needs to be said about that, and
 - *About* gives you a bit more background on me and why I started this whole thing.
 
-But before we wrap things up, one more thing we need to talk about is...
+## Notes and Nit-picks
+
+Sometimes, I'll insert a little note to add extra information. These will be italicized and take the form of:
+
+*Note: Here's some helpful information.*
+
+But other times, if the information is a detail usually known by more experienced players in this game of programming, I may refer to it as a nit-pick. These will take this form:
+
+*Nit: Touch-typing makes your job as a programmer much easier.*
+
+And before we wrap things up, one more thing we need to talk about is...
 
 ## Why Those Fonts?
 
-Cross-platform fonts can be a pain in the butt if you want a consistent look across platforms. In fact, it can be nigh on impossible, but one place where we can be consistent is with fonts. In *GTK-D*, I resorted to a bunch of `if-else` OS-dependent statements that handed off font equivalents based on which OS was in use. Here, though, I decided to work with a subset that can be made available to all platforms. We’ll talk more about this in the next post where we’ll also cover installation of *Python* and *tkinter*.
+Cross-platform applications can be a pain in the butt if you want a consistent look no matter what OS your user is running. In fact, it can seem nigh on impossible, but one place where we can be consistent is with fonts. In *GTK-D*, I resorted to a bunch of `if-else` OS-dependent statements that handed off font equivalents based on which OS was in use. Here, though, I decided to work with a subset that can be made available to all platforms. We’ll talk more about this in the next post where we’ll also cover installation of *Python* and *tkinter*.
 
 ## Conclusion
 
@@ -98,6 +117,6 @@ Until then, remember that programming paradise is just a dream away. Good night.
 
 <div class="blog-nav">
 	<div style="float: right;">
-		<a href="/2021/08/06/0002-python-font-installation.html">Next: Installing Python and Common Fonts</a>
+		<a href="/2021/08/10/0002-python-font-installation.html">Next: Installing Python and Common Fonts</a>
 	</div>
 </div>

@@ -24,3 +24,11 @@ h1:after, h2:after, h3:after, h4:after, h5:after
 	width: 860px;
 	transform: skew(-20deg);
 }
+#downloadbox
+{
+	background-color: rgba(196, 153, 236, 1.0);
+	border-radius: 10px;
+	padding: 5px;
+	border: 2px solid rgba(120, 68, 33, 1.0);
+	text-align: center;
+}

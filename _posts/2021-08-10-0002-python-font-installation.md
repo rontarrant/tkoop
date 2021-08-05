@@ -6,6 +6,14 @@ topic: general
 description: "How to install Python 3.x on the most-used operating systems and creating a baseline set of fonts."
 ---
 
+## Intro — What We're Doing
+
+Here's the list:
+
+- install Python/Tkinter,
+- check the install to make sure everything's working, and
+- (if you're using Linux or one of the BSD's) install fonts common to other OS's.
+
 ## Installing Python/Tkinter
 
 Let’s get this out of the way right up front... for all operating systems, I recommend installing the 64-bit version of *Python*. But, if for any reason you can’t, the 32-bit version will also do.
@@ -74,7 +82,9 @@ Now, on to specifics.
 
 ### GhostBSD/FreeBSD
 
-Open an elevated terminal and locate the latest *Python* version:
+Open an elevated terminal and locate the latest *Python* version
+
+*Nit: If you don't know what an elevated terminal is, you have two choices: 1) go hit the books and find out, or 2) you might wanna rethink your choice of OS. :)*
 
 	pkg search python
 
@@ -86,32 +96,41 @@ Locate the latest version of *tkinter*:
 
 	pkg search tkinter
 
-In this step, the example command is for a specific version of *Python* and *tkinter*, but if enough time has passed since the publishing of this post, you may be dealing with a more up-to-date version. In that case, the previous command will tell you which version is available. Simply do the substitution before you install it with:
+In this next step (below) the command shown is for the version of *Python* and *tkinter* I found while testing these installation procedures on my computer. But if enough time has passed since the publishing of this post, you may have a more up-to-date version to deal with. In that case, the previous command (above) will tell you which version that is. Simply do the substitution before you install it with:
 
 	pkg install py39-tkinter-3.9.1_6
 
 ### Linux
 
-Chances are, you’re using a *Debian/Ubuntu*-based *Linux* release. If so, you’re likely familiar with `apt`. If you’re using *SUSE Linux* or another distro that doesn’t use `apt`, you may have to build *Python* from source and that’s beyond the scope of this blog. However, in a case like that, you likely don’t need me to explain how to install *Python*, anyway. If you do, though, I refer you to this page on <a href="https://realpython.com/installing-python/" target="_blank">Real Python</a> and we’ll talk again in a few hours once you’re finished.
+Chances are, you’re using a *Debian/Ubuntu*-based *Linux* release. If so, you’re likely familiar with `apt`. If you’re using *SUSE Linux* or another distro that doesn’t use `apt`, you may have to build *Python* from source and that’s beyond the scope of this blog. However, in a case like that, you likely don’t need me to explain how to install *Python*, anyway. If you do, though, I refer you to this page on <a href="https://realpython.com/installing-python/#how-to-install-on-opensuse" target="_blank">Real Python</a> and we’ll talk again in a few hours once you’re finished.
 
 Getting back to the subject at hand...
 
 To install using the `apt` package manager...
 
 - hook up the repository:
-	`sudo add-apt-repository ppa:deadsnakes/ppa`
+	- `sudo add-apt-repository ppa:deadsnakes/ppa`
 - make sure everything’s up to date:
-	`sudo apt-get update`
+	- `sudo apt-get update`
 - find the latest Python (without venturing out onto the bleeding edge):
-	`sudo apt-cache search python`
-- install it:
-	`sudo apt-get install python3.x python3-pip`
-
-And, of course, substitute the actual minor version for the `x`.
+	 - `sudo apt-cache search python`
+- install it (and, of course, substitute the actual minor version for the `x`):
+	- `sudo apt-get install python3.x python3-pip`
 
 ### MacOS
 
 Just download and install. That’s it.
+
+Well, one other thing you'll likely want to do is add *Python* to the system path. This means you can simply type `python <script>.py` to launch a script instead of typing the entire installation path name. Here's a step-by-step procedure:
+
+- open a *Terminal*,
+- type this command:
+	- `sudo nano /etc/paths`
+	- type your password when asked,
+- (contents of the `PATH` variable will appear), so
+- at the end of this list, type the full path of the *Python* install directory,
+- `Ctrl + X` to quit, and
+- `Y` to save the changes.
 
 ## Configure an Alias
 
@@ -142,7 +161,7 @@ To set up an alias:
 
 ## Final Check
 
-No matter which OS you’re using, if you followed the above recommendations, you can now check that Python is working by opening a terminal/*Command Prompt* and typing:
+No matter which OS you’re using, if you followed the above recommendations, you can now check that *Python* is working by opening a shell/terminal/*Terminal*/*Command Prompt* and typing:
 
 	py --version
 
@@ -289,6 +308,6 @@ Whatever. I’ll see you then.
 		<a href="/2021/08/03/0001-blog-introduction.html">Previous: Introduction to the Tkooper Blog</a>
 	</div>
 	<div style="float: right;">
-		<a href="/2021/08/10/0003-windows-first-steps.html">Next: Windows - First Steps</a>
+		<a href="/2021/08/17/0003-windows-first-steps.html">Next: Windows - First Steps</a>
 	</div>
 </div>

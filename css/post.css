@@ -158,3 +158,43 @@ td.code
 {
 	font-family: Courier New, Nimbus Mono L;
 }
+/*
+added 2021-07-28
+for use with auto-grid flow
+ */
+figcaption
+{
+	font-style: italic;
+	font-size: 12px;
+}
+.columns
+{
+	margin: 1rem auto;
+	width: min(90%, 75rem);
+	display: grid;
+	grid-auto-flow: row;
+	gap: 1em;
+}
+.grid_header
+{
+	margin: 1rem auto;
+	margin-top: 1px;
+	width: min(90%, 75rem);
+	display: grid;
+	grid-auto-flow: row;
+}
+.grid_footer
+{
+	margin: 1rem auto;
+	margin-top: 1px;
+	width: min(90%, 75rem);
+	display: grid;
+	grid-auto-flow: row;
+}
+@media (min-width: 55em)
+{
+	.columns
+	{
+		grid-auto-flow: column;
+	}
+}
