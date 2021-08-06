@@ -17,7 +17,7 @@ To understand my qualifications for these tasks, please read on...
 <!-- RIGHT -->
 <div class="inpage_diagram">
 	<figure class="right">
-		<img src="{{ site.baseurl }}/images/founder/calm_scientist.jpg" alt="The Founder" style="width: 450px; height: 324px;">
+		<img src="{{ site.baseurl }}/images/founder/calm_scientist.jpg" alt="The Founder">
 		<figcaption>
 			The Founder (photo credit: Elise Amyot)
 		</figcaption>
