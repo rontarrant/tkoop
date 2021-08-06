@@ -36,7 +36,7 @@ Since then, I've brought programming and graphic design together several times, 
 
 ## What About That Other Stuff? 
 
-But programming and graphic design aren't the only things I've done in my life. Since dropping out of high school in 1972, I've also made a living as a cabdriver, musician, screenwriter, technical writer, 3D modeller/animator, artist, sound reinforcement technician and salesman, a biology lab technician, and delivery driver... among other things. I've also made money (but not an actual living) acting, and promoting concerts. I retired from Statistics Canada in 2010 and have since divided my time between acting, writing lame science fiction novels, and pursuing the elusive X-plat beast... all this while keeping house for my wife of 33 years. Needless to say, I'm not groping around for things to do.
+But programming and graphic design aren't the only things I've done in my life. Since dropping out of high school in 1972, I've also made a living as a cabdriver, musician, screenwriter, technical writer, 3D modeller/animator, artist, sound reinforcement technician and salesman, a biology lab technician, and delivery driver... among other things. I've also made money (but not an actual living) acting, and promoting concerts. (Not bad for a high school drop-out.) I retired from Statistics Canada in 2010 and have since divided my time between acting, writing lame science fiction novels, and pursuing the elusive X-plat beast... all this while keeping house for my wife of 36 years. Needless to say, I'm not groping around for things to do.
 
 And that pretty much brings us to the present where I'm under lock-down along with the rest of the world as we wait to see how big a deal this COVID-19 thing turns out to be. 
 
