@@ -7,4 +7,4 @@ permalink: /index-reverse/
 <link rel="stylesheet" href="/css/main.css" />
 <link rel="stylesheet" href="/css/colors.css" />
 
-A site for more sore skode
+Another site for sore skode
