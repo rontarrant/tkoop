@@ -12,13 +12,15 @@ Here's the list:
 
 - install Python/Tkinter,
 - check the install to make sure everything's working, and
-- (if you're using Linux or one of the BSD's) install fonts common to other OS's.
+- (if you're using Linux or one of the BSD's) install fonts (potentially) common to all OS's.
 
 ## Installing Python/Tkinter
 
-Let’s get this out of the way right up front... for all operating systems, I recommend installing the 64-bit version of *Python*. But, if for any reason you can’t, the 32-bit version will also do.
+It's best to install the 64-bit version of *Python*. But, if for any reason you can’t, the 32-bit version will also do.
 
 For those operating systems that use them (*Windows* and *MacOS* mostly), installers can be <a href="https://www.python.org/downloads/" target="_blank">downloaded from here</a>.
+
+One more thing... depending on how much time has passed since the writing of this post, version numbers may have changed. In that case, just make the appropriate substitution. The procedures, however, will likely still be the same. If they do change, I'll make sure this page is updated.
 
 Now, on to specifics.
 
@@ -80,11 +82,15 @@ Now, on to specifics.
 	- *Add Python 3.x to PATH*,
 - from there, just follow the prompts.
 
+Something to note... The default installation on Windows sets up an alias so you can run Python by simply typing:
+
+`py <script>`
+
 ### GhostBSD/FreeBSD
 
-Open an elevated terminal and locate the latest *Python* version
+Either `su` to or log in as `root`. Alternatively, you can precede each of the commands below with `sudo`.
 
-*Nit: If you don't know what an elevated terminal is, you have two choices: 1) go hit the books and find out, or 2) you might wanna rethink your choice of OS. :)*
+Locate the latest *Python* version:
 
 	pkg search python
 
@@ -96,17 +102,17 @@ Locate the latest version of *tkinter*:
 
 	pkg search tkinter
 
-In this next step (below) the command shown is for the version of *Python* and *tkinter* I found while testing these installation procedures on my computer. But if enough time has passed since the publishing of this post, you may have a more up-to-date version to deal with. In that case, the previous command (above) will tell you which version that is. Simply do the substitution before you install it with:
+Install it:
 
 	pkg install py39-tkinter-3.9.1_6
 
 ### Linux
 
-Chances are, you’re using a *Debian/Ubuntu*-based *Linux* release. If so, you’re likely familiar with `apt`. If you’re using *SUSE Linux* or another distro that doesn’t use `apt`, you may have to build *Python* from source and that’s beyond the scope of this blog. However, in a case like that, you likely don’t need me to explain how to install *Python*, anyway. If you do, though, I refer you to this page on <a href="https://realpython.com/installing-python/#how-to-install-on-opensuse" target="_blank">Real Python</a> and we’ll talk again in a few hours once you’re finished.
+Chances are, you’re using a *Debian/Ubuntu*-based *Linux* release. If so, you’re likely familiar with `apt`. If you’re using *SUSE Linux* or another distro that doesn’t use `apt`, you may have to build *Python* from source and that’s beyond the scope of this blog. However, in a case like that, you likely don’t need any explanation on how to install *Python*, anyway. If you do, though, I refer you to <a href="https://realpython.com/installing-python/#how-to-install-on-opensuse" target="_blank">this page on Real Python</a> and we’ll talk again in a few hours once you’re finished.
 
 Getting back to the subject at hand...
 
-To install using the `apt` package manager...
+Install using the `apt` package manager...
 
 - hook up the repository:
 	- `sudo add-apt-repository ppa:deadsnakes/ppa`
@@ -124,10 +130,10 @@ Just download and install. That’s it.
 Well, one other thing you'll likely want to do is add *Python* to the system path. This means you can simply type `python <script>.py` to launch a script instead of typing the entire installation path name. Here's a step-by-step procedure:
 
 - open a *Terminal*,
-- type this command:
+- start a text editor:
 	- `sudo nano /etc/paths`
 	- type your password when asked,
-- (contents of the `PATH` variable will appear), so
+- (the contents of the `PATH` variable will appear as a list), so
 - at the end of this list, type the full path of the *Python* install directory,
 - `Ctrl + X` to quit, and
 - `Y` to save the changes.
@@ -136,7 +142,7 @@ Well, one other thing you'll likely want to do is add *Python* to the system pat
 
 **(Optional, but Recommended)**
 
-If you’re using *Windows*, you can run *Python* by typing `py` or you can execute a script with `py <script>.py`, but there’s no reason why you can’t have the same convenience no matter which OS you’re using.
+You can run *Python* by typing `py` no matter which OS you're using. In Windows, it's set up during the install, but to set this alias in other OSes, read on.
 
 ### Linux or BSD
 
@@ -144,7 +150,9 @@ Create or edit `.bashrc` in your home directory and add this line:
 
 	alias py=’python3.9’
 
-And, again, if you're using a later version of *Python*, substitute the proper version number. Restart the shell for this to take effect.
+And, again, if you're using a later version of *Python*, substitute the proper version number.
+
+*Note: Restart the shell for this to take effect.*
 
 ### MacOS
 
@@ -238,7 +246,7 @@ Just one more thing (if you’re using *Linux* or a *BSD*) and then we’re read
 
 Let’s establish a baseline for fonts so we're all on the same page.
 
-We don’t need more than a few different fonts for the types of demos that’ll be covered here, but in the interests of flexibility and good design, we’ll want at least the following:
+We don’t need more than a few different fonts for the types of demos that’ll be covered here, but in the interests of flexibility and (reasonably) good design, we’ll want at least the following:
 
 - a couple of serif fonts,
 - a couple sans-serif,
@@ -259,13 +267,13 @@ We don’t need more than a few different fonts for the types of demos that’ll
 - *Verdana* (sans-serif), and
 - *Webdings* (weird stuff).
 
-These give us a couple of choices for each of the font styles listed above.
+These give us a couple of choices for each of the font styles listed above. And thanks go to Microsoft for making these fonts available to everyone on all operating systems.
 
 If you’re working on *Windows* or *MacOS*, these fonts (with the exception of *Andalé Mono*) are installed along with the OS, but they’re also free to use with *Linux* and the *BSD*’s.
 
 ### MS Webfonts on GhostBSD/FreeBSD
 
-Use an elevated terminal to install and configure them.
+Log in or `su` to `root` to install and configure them. (Or, as before, use `sudo` before each of the following commands.)
 
 Install:
 
