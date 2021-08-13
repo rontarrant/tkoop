@@ -3,7 +3,7 @@ title: "0002: Installing Python and Common Fonts"
 layout: post
 tag: general
 topic: general
-description: "How to install Python 3.x on the most-used operating systems and creating a baseline set of fonts."
+description: "How to install Python 3.9 or later on the most-used operating systems and creating a baseline set of fonts."
 ---
 
 ## Intro — What We're Doing
