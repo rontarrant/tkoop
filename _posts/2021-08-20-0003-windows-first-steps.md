@@ -104,24 +104,14 @@ import tkinter
 tkinter._test()
 ```
 
-You'll recognize the results of this script from <a href="/2021/07/16/0002-python-font-installation.html" target="_blank">Post #002 — Python and Font Installation</a>.
-
-You can type it, save it as `000_window_test.py`, and take your a step further into *tkinter*-land when you run it from a terminal. And if you did the alias trick I mentioned, you can run it by typing:
-
-	py 000_window_test.py
-
-The results will be the same as we got when we used the *Python* interpreter directly like this:
-
-	py -m tkinter
+You'll recognize the results from the quick test we did in <a href="/2021/07/16/0002-python-font-installation.html" target="_blank">Post #002 — Python and Font Installation</a>. The difference is, this is how we get there using a script file.
 
 ### Breakdown
 
 There isn’t much to breakdown, but there are two tidbits of information to take away from this:
 
-- we can’t use *tkinter* without importing it, and
+- to use *tkinter* in a *Python* script, we have to import it, and
 - it’s now obvious that `py -m` on the command line is the same as an `import` statement in a script. The difference is that, on the command line, importing tkinter like this automatically runs the test. In our script, we have to call it explicitly.
-
-Both allow us to use a *Python* module.
 
 ## A Minimal Window Demo
 
@@ -256,22 +246,24 @@ The window declaration does obscure what's going on, so here's the dope...
 
 - `Tk()` is the window class which is part of the `tkinter` module,
 - `tkinter.Tk()` is shorthand for calling `tkinter.Tk().__init__()` and that creates the window object, and
-- the `window` then opens automatically when `window.mainloop()` starts.
+- the `window` then opens when we call `window.mainloop()`.
 
-One other thing to note here. The way we imported tkinter means that every time we make a call to the tkinter library, we'll have to prefix the call with `tkinter.` (the name of the library followed by a dot) to avoid a `name <widget> not defined` error. In the next demo—and from them on—we'll change the way we import the library to avoid this situation.
+One other thing to note here. The way we imported tkinter means that every time we make a call to the tkinter library, we'll have to prefix the call with `tkinter.` (the name of the library followed by a dot) to avoid a `name <widget> not defined` error. In the next demo—and from then on—we'll change the way we import the library to avoid this situation.
 
-Now let’s talk about the `print()` statement—which will make more sense if we do so in conjunction with the `if` statement at the bottom of the script. So, we’ll start there...
+#### That print() Statement
 
-The `if` statement checks the script’s namespace. *Python* always gives an executing script the namespace `__main__`. Thus, the `if` statement is `True` and `main()` is executed.
+Let’s talk about in conjunction with the `if` statement at the bottom of the script...
 
-And looking back at the `main()` function, the `print()` statement will write the namespace to the terminal. Take a look at the terminal's screenshot above to see the results.
+Those few lines in the `if` statement check the script’s namespace. *Python* always gives an executing script the namespace `__main__`. As long as these lines appear at the end of an executed Python script, the `if` statement will always be `True` and `main()` will execute.
 
-Now let’s look at what happens when *Python* imports this same script as a module...
+Now, let's look back at the `main()` function were the `print()` statement writes the namespace to the terminal. Take a look at the terminal's screen-shot above to see the results.
+
+This only tells part of the namespace story, thought. To see exactly how namespaces work, we have to look at what happens when *Python* imports this script as a module...
 
 ## Importing The Previous Demo
 
 <!-- 6, 7, 8 -->
-<!-- THIRD occurrence of application, terminal, and source code screenshots on a single page -->
+<!-- THIRD occurrence of application, terminal, and source code screen-shots on a single page -->
 <div>
 	<!-- GRID HEADER -->
 	<div class="grid_header">
@@ -388,7 +380,7 @@ if __name__ == "__main__":
 	main()
 ```
 
-The `import` statement brings in our previous script by name—minus the `.py` suffix. It doesn’t mention the `tkinter` module because that's already imported in `window_001_minimal.py`.
+The `import` statement loads our previous script (note the absence of the `.py` suffix). It doesn’t mention the `tkinter` module because that's imported in the script we're importing here... `window_001_minimal.py`.
 
 Also, `main()` doesn’t declare and open a window. For that, we reach into `window_001_minimal.py` and call *that* `main()` function instead. Let's save this script as `window_002_start_external.py`.
 
@@ -402,13 +394,14 @@ Adding those two lines at the end of every script is a good habit to get into. *
 
 ## Conclusion
 
-Next time, we’ll touch on frames and discover that the statement made at the top of this post about windows being foundational to all things GUI may not be true. Until then, keep your campfires burning and, as they say in some parts, don’t let the COVID get you.
+Next time, we’ll look at the `Frame` widget and peek into one of the back doors available when building GUI's with tkinter. Until then, keep your campfires burning and, as they say in some parts, don’t let the COVID get you.
 
 <div class="blog-nav">
 	<div style="float: left;">
 		<a href="/2021/08/10/0002-python-font-installation.html">Previous: Installing Python and Common Fonts</a>
 	</div>
-	<div style="float: right;">
+<!--	<div style="float: right;">
 		<a href="/2021/08/24/0004-just-ooping-along.html">Next: Just OOPing Along</a>
 	</div>
+-->
 </div>
