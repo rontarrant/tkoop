@@ -3,7 +3,7 @@ title: "0003: Windows: First Steps in Tkinter"
 layout: post
 tag: window
 topic: window
-description: "Dipping toes into the Tkinter waters."
+description: "Dipping toes into the Tkinter waters. Three ways to get a tkinter Window onscreen."
 ---
 
 ## Before We Begin...
