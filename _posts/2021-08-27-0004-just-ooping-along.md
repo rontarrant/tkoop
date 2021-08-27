@@ -118,9 +118,9 @@ Here we go...
 	</div>
 </div>
 <BR>
-<!-- end of snippet for FIRST (1st) occurrence of application, terminal and source code screenshots on a single page -->
+<!-- end of snippet for FIRST (1st) occurrence of application, terminal and source code screen-shots on a single page -->
 
-Changing the import statement so we're left with the least amount of OOP *Python* tkinter code you can use to open a window looks something like this:
+Changing the import statement so we're left with the least amount of code to open a window looks something like this:
 
 ```python
 from tkinter import *
@@ -155,7 +155,7 @@ This library call can be done like this now:
 Tk()
 ```
 
-Second, we derive our own `Window` class. It's not necessary, but it helps keep our code neatly modular, even within a single script file.
+Second, we derive our own `Window` class. It's not necessary, but it helps keep our code neatly modular.
 
 #### The Derived Window
 
@@ -165,9 +165,9 @@ At the top of the class, we define an `__init__()` method. For this demo, it isn
 super().__init__()
 ```
 
-It’s awkward to type, but *Pythonic* as all git-out... OOPish, too. And if it's not done, we get no window.
+It’s awkward to type, but *Pythonic* as all git-out... OOPish, too.
 
-Another benefit of using a `Window` class like this is that it gives us a way to simulate global variables without actually using globals. We’ll talk more about this later.
+There are other benefits to using a `Window` class which we’ll talk more about later.
 
 #### main()
 
@@ -286,7 +286,7 @@ Now let’s look at a pretentious frame...
 <BR>
 <!-- end of snippet for SECOND (2nd) occurrence of application, terminal and source code screen-shots on a single page -->
 
-So far, I've led you to believe that all tkinter applications need a window to put widgets in. Well, that’s not exactly true. We can get a window by sneaking in the back door, so to speak.
+So far, we've operated under the assumption that all tkinter applications need a window to put widgets in. Well, that’s not exactly true. We can get a window by sneaking in the back door, so to speak.
 
 Here’s out next example:
 
@@ -325,8 +325,8 @@ And that’s all for this time. Next time, we’ll see what a properly OOPed-up 
 	<div style="float: left;">
 		<a href="/2021/08/17/0003-windows-first-steps.html">Previous: Windows - First Steps</a>
 	</div>
-	<div style="float: right;">
+<!--	<div style="float: right;">
 		<a href="/2021/08/31/0005-not-so-minimal.html">Next: Not So Minimal</a>
-	</div>
+	</div> -->
 </div>
 
