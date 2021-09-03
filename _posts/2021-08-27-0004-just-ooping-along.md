@@ -326,7 +326,7 @@ And that’s all for this time. Next time, we’ll see what a properly OOPed-up 
 		<a href="/2021/08/17/0003-windows-first-steps.html">Previous: Windows - First Steps</a>
 	</div>
 	<div style="float: right;">
-		<a href="/2021/08/31/0005-not-so-minimal.html">Next: Not So Minimal</a>
+		<a href="/2021/09/03/0005-not-so-minimal.html">Next: Not So Minimal</a>
 	</div>
 </div>
 
