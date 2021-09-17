@@ -327,8 +327,9 @@ Until then, keep your windows clean and stay safe.
 	<div style="float: left;">
 		<a href="/2021/09/07/0006-site-stuff.html">Previous: Site Stuff You'll Want to Know</a>
 	</div>
-	<div style="float: right;">
+<!--	<div style="float: right;">
 		<a href="/2021/09/21/0008-window-size.html">Next: Controlling Window Size</a>
 	</div>
+-->
 </div>
 
