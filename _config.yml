@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   paradigm. Our goal is comprehensive coverage of everything the toolkit
   has to offer.
   
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "rontarrant.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TkooperRon
 facebook_username: tkooperron
