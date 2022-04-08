@@ -117,6 +117,6 @@ Until then, remember that programming paradise is just a dream away. Good night.
 
 <div class="blog-nav">
 	<div style="float: right;">
-		<a href="/2021/08/13/0002-python-font-installation.html">Next: Installing Python and Common Fonts</a>
+		<a href="{{ site.baseurl }}/2021/08/13/0002-python-font-installation.html">Next: Installing Python and Common Fonts</a>
 	</div>
 </div>
