@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 	<div class="masthead-logo">
 		{{ content }} <!-- draw in the content of the page that uses this layout -->
-		<img src="/images/page_headers/tkooper_logo_rev_4_860x186.png"> <!-- masthead logo -->
+		<img src="{{ site.baseurl }}/images/page_headers/tkooper_logo_rev_4_860x186.png"> <!-- masthead logo -->
 	</div>
 	
 	{%- if site.posts.size > 0 -%}
@@ -33,7 +33,7 @@ layout: default
 							</div>
 						</div>
 						<div class="post-topic-icon">
-							<img class="topic-icon" src="/images/topics/{{post.topic}}.png"> <!-- topic image -->
+							<img class="topic-icon" src="{{ site.baseurl }}/images/topics/{{post.topic}}.png"> <!-- topic image -->
 						</div>
 					</div>
 				</li>
