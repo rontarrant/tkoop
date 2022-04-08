@@ -313,9 +313,9 @@ Whatever. I’ll see you then.
 
 <div class="blog-nav">
 	<div style="float: left;">
-		<a href="/2021/08/06/0001-blog-introduction.html">Previous: Introduction to the Tkooper Blog</a>
+		<a href="{{ site.baseurl }}/2021/08/06/0001-blog-introduction.html">Previous: Introduction to the Tkooper Blog</a>
 	</div>
 	<div style="float: right;">
-		<a href="/2021/08/20/0003-windows-first-steps.html">Next: Windows - First Steps</a>
+		<a href="{{ site.baseurl }}/2021/08/20/0003-windows-first-steps.html">Next: Windows - First Steps</a>
 	</div>
 </div>

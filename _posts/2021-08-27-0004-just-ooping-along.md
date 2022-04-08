@@ -323,10 +323,10 @@ And that’s all for this time. Next time, we’ll see what a properly OOPed-up 
 
 <div class="blog-nav">
 	<div style="float: left;">
-		<a href="/2021/08/20/0003-windows-first-steps.html">Previous: Windows - First Steps</a>
+		<a href="{{ site.baseurl }}/2021/08/20/0003-windows-first-steps.html">Previous: Windows - First Steps</a>
 	</div>
 	<div style="float: right;">
-		<a href="/2021/09/03/0005-not-so-minimal.html">Next: Not So Minimal</a>
+		<a href="{{ site.baseurl }}/2021/09/03/0005-not-so-minimal.html">Next: Not So Minimal</a>
 	</div>
 </div>
 

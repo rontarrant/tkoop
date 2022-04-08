@@ -398,9 +398,9 @@ Next time, we’ll look at the `Frame` widget and peek into one of the back door
 
 <div class="blog-nav">
 	<div style="float: left;">
-		<a href="/2021/08/13/0002-python-font-installation.html">Previous: Installing Python and Common Fonts</a>
+		<a href="{{ site.baseurl }}/2021/08/13/0002-python-font-installation.html">Previous: Installing Python and Common Fonts</a>
 	</div>
 	<div style="float: right;">
-		<a href="/2021/08/27/0004-just-ooping-along.html">Next: Just OOPing Along</a>
+		<a href="{{ site.baseurl }}/2021/08/27/0004-just-ooping-along.html">Next: Just OOPing Along</a>
 	</div>
 </div>
