@@ -25,7 +25,7 @@ Today, we’ll start looking at widgets that populate windows (and frames) and w
 <!-- LEFT SCREENSHOT -->
 	<div class="gridscreenshot">
 		<figure>
-			<img id="imgz" src="/images/screenshots/003_button/button_001.png" alt="Current example output">		<!-- img# -->
+			<img id="imgz" src="{{ site.baseurl }}/images/screenshots/003_button/button_001.png" alt="Current example output">		<!-- img# -->
 			
 			<!-- Modal for screenshot -->
 			<div id="modalz" class="modal">																	<!-- modal# -->
@@ -67,7 +67,7 @@ Today, we’ll start looking at widgets that populate windows (and frames) and w
 <!-- RIGHT SCREENSHOT -->
 	<div class="gridterm">
 		<figure class="right">
-			<img id="imgy" src="/images/screenshots/003_button/button_001_term.png" alt="Terminal image">		<!-- img#, filename -->
+			<img id="imgy" src="{{ site.baseurl }}/images/screenshots/003_button/button_001_term.png" alt="Terminal image">		<!-- img#, filename -->
 
 			<!-- Modal for terminal shot -->
 			<div id="modaly" class="modal">																				<!-- modal# -->
@@ -165,7 +165,7 @@ So, that’s what a simple `Button` looks like, but most of the time, we’ll ne
 <!-- LEFT SCREENSHOT -->
 	<div class="gridscreenshot">
 		<figure>
-			<img id="imgx" src="/images/screenshots/003_button/button_002_derived.png" alt="Current example output">		<!-- img# -->
+			<img id="imgx" src="{{ site.baseurl }}/images/screenshots/003_button/button_002_derived.png" alt="Current example output">		<!-- img# -->
 			
 			<!-- Modal for screenshot -->
 			<div id="modalx" class="modal">																	<!-- modal# -->
@@ -207,7 +207,7 @@ So, that’s what a simple `Button` looks like, but most of the time, we’ll ne
 <!-- RIGHT SCREENSHOT -->
 	<div class="gridterm">
 		<figure class="right">
-			<img id="imgw" src="/images/screenshots/003_button/button_002_derived_term.png" alt="Terminal image">		<!-- img#, filename -->
+			<img id="imgw" src="{{ site.baseurl }}/images/screenshots/003_button/button_002_derived_term.png" alt="Terminal image">		<!-- img#, filename -->
 
 			<!-- Modal for terminal shot -->
 			<div id="modalw" class="modal">																				<!-- modal# -->

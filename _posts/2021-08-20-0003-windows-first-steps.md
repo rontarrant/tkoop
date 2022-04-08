@@ -48,7 +48,7 @@ We'll be looking at:
 		<!-- COLUMN 1 -->
 		<div>
 			<figure>
-				<img id="img0" src="/images/screenshots/001_window/window_000_test.png" alt="Current example output">		<!-- img# -->
+				<img id="img0" src="{{ site.baseurl }}/images/screenshots/001_window/window_000_test.png" alt="Current example output">		<!-- img# -->
 				
 				<!-- Modal for screenshot -->
 				<div id="modal0" class="modal">																<!-- modal# -->
@@ -126,7 +126,7 @@ There isn’t much to breakdown, but there are two tidbits of information to tak
 		<!-- COLUMN 1 -->
 		<div>
 			<figure>
-				<img id="img3" src="/images/screenshots/001_window/window_001_minimal.png" alt="Current example output">		<!-- img# -->
+				<img id="img3" src="{{ site.baseurl }}/images/screenshots/001_window/window_001_minimal.png" alt="Current example output">		<!-- img# -->
 				
 				<!-- Modal for screenshot -->
 				<div id="modal3" class="modal">																<!-- modal# -->
@@ -170,7 +170,7 @@ There isn’t much to breakdown, but there are two tidbits of information to tak
 		<!-- COLUMN 2 -->
 		<div>
 			<figure>
-				<img id="img4" src="/images/screenshots/001_window/window_001_minimal_term.png" alt="Current example terminal output"> 		<!-- img#, filename -->
+				<img id="img4" src="{{ site.baseurl }}/images/screenshots/001_window/window_001_minimal_term.png" alt="Current example terminal output"> 		<!-- img#, filename -->
 	
 				<!-- Modal for terminal shot -->
 				<div id="modal4" class="modal">																			<!-- modal# -->
@@ -273,7 +273,7 @@ This only tells part of the namespace story, thought. To see exactly how namespa
 		<!-- COLUMN 1 -->
 		<div>
 			<figure>
-				<img id="img6" src="/images/screenshots/001_window/window_002_start_external.png" alt="Current example output">		<!-- img# -->
+				<img id="img6" src="{{ site.baseurl }}/images/screenshots/001_window/window_002_start_external.png" alt="Current example output">		<!-- img# -->
 				
 				<!-- Modal for screenshot -->
 				<div id="modal6" class="modal">																<!-- modal# -->
@@ -317,7 +317,7 @@ This only tells part of the namespace story, thought. To see exactly how namespa
 		<!-- COLUMN 2 -->
 		<div>
 			<figure>
-				<img id="img7" src="/images/screenshots/001_window/window_002_start_external_term.png" alt="Current example terminal output"> 		<!-- img#, filename -->
+				<img id="img7" src="{{ site.baseurl }}/images/screenshots/001_window/window_002_start_external_term.png" alt="Current example terminal output"> 		<!-- img#, filename -->
 	
 				<!-- Modal for terminal shot -->
 				<div id="modal7" class="modal">																			<!-- modal# -->

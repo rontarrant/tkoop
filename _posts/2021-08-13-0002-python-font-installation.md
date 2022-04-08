@@ -35,7 +35,7 @@ Now, on to specifics.
 <!-- SCREENSHOT -->
 	<div class="gridscreenshot">
 		<figure>
-			<img id="img1a" src="/images/diagrams/post_0002/win_installer.png" alt="Current example output">		<!-- img# -->
+			<img id="img1a" src="{{ site.baseurl }}/images/diagrams/post_0002/win_installer.png" alt="Current example output">		<!-- img# -->
 			
 			<!-- Modal for screenshot -->
 			<div id="modal1a" class="modal">																	<!-- modal# -->
@@ -188,7 +188,7 @@ This should open a small *tkinter* window that shows which version of *tkinter* 
 <!-- SCREENSHOT -->
 	<div class="gridscreenshot">
 		<figure>
-			<img id="img2b" src="/images/screenshots/001_window/window_000_test.png" alt="Current example output">		<!-- img# -->
+			<img id="img2b" src="{{ site.baseurl }}/images/screenshots/001_window/window_000_test.png" alt="Current example output">		<!-- img# -->
 			
 			<!-- Modal for screenshot -->
 			<div id="modal2b" class="modal">																	<!-- modal# -->
