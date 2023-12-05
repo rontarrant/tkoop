@@ -4,9 +4,9 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
 	<header class="post-header">
-		<link rel="stylesheet" href="/css/font_size.css" />
-		<link rel="stylesheet" href="/css/style.css" />
-		<link rel="stylesheet" href="/css/topics.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/font_size.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/topics.css" />
 		
 		{% if page.keywords %}
 			<meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
@@ -22,7 +22,7 @@ layout: default
 	</header>
 
 	<div itemprop="articleBody">
-		<img src="/images/page_headers/by_topic_page_header_860x130.png"> <!-- masthead logo -->
+		<img src="{{ site.baseurl }}/images/page_headers/by_topic_page_header_860x130.png"> <!-- masthead logo -->
 		{{- content -}}
 		<!-- find out if there are posts and, if so, sort them into a collection -->		
 		{%- if site.posts.size > 0 -%}
@@ -43,7 +43,7 @@ layout: default
 					{% endcapture %}
 					<div>
 						<a href="#{{ tag[0] }}"> <!-- Build a link that will auto-scroll to the topic heading. -->
-							 <img class="topic-icon" src="/images/topics/{{ tag[0] }}.png" alt="{{ tag[0] | capitalize }}">
+							 <img class="topic-icon" src="{{ site.baseurl }}/images/topics/{{ tag[0] }}.png" alt="{{ tag[0] | capitalize }}">
 						</a>
 						<p align="center" class="{{topic_color}}_font-color">{{ tag[1].size }}</p>
 					</div>
@@ -66,7 +66,7 @@ layout: default
 						<div class="{{current-topic-color}} topic-header"></div>
 					</span>
 					<span class="topic-span-icon">
-						<img src="/images/topics/{{tag[0]}}.png">
+						<img src="{{ site.baseurl }}/images/topics/{{tag[0]}}.png">
 					</span>
 				</div>
 
